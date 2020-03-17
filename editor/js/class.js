@@ -95,7 +95,7 @@ Class.prototype.createFormHTML = function()
 		this.data[i].createHTML(form);
         
         // Append attributes
-        if (this.data[i].name == 'Mana')
+        if (this.data[i].name == '魔力值')
         {
             var dragInstructions = document.createElement('label');
             dragInstructions.id = 'attribute-label';
